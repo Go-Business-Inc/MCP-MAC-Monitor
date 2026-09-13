@@ -1,0 +1,23 @@
+{
+  "name": "mac-monitor",
+  "version": "1.0.0",
+  "description": "MCP server to read Mac status (battery, memory, CPU, GPU, disk, energy per app) and shut down / restart / sleep it",
+  "author": "Go Business Inc. (https://gobusinessinc.com/)",
+  "homepage": "https://github.com/Go-Business-Inc/MCP-MAC-Monitor#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Go-Business-Inc/MCP-MAC-Monitor.git"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.6.3"
+  },
+  "bin": {
+    "mac-monitor": "src/index.js"
+  }
+}
