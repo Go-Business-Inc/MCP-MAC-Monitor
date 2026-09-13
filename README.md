@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://gobusinessinc.com">
+    <img src="https://gobusinessinc.com/assets/media/GBlogo250x250.png" alt="GoBusiness" width="120">
+  </a>
+</p>
+
 # MCP Mac Monitor
 
 A local [MCP](https://modelcontextprotocol.io) server that lets Claude (or any MCP client) check the status of your Mac — battery, memory, CPU, GPU, disk, and which apps are draining your battery — and shut it down, restart it, or put it to sleep.
